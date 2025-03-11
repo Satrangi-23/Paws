@@ -10,8 +10,8 @@ import random
 
 # Page configuration
 st.set_page_config(
-    page_title="Happy Birthday Nikita!",
-    page_icon="🎂",
+    page_title="Happy Birthday Nikita🐽!",
+    page_icon="🎂🎈",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -117,7 +117,7 @@ def local_css():
 local_css()
 
 # Sidebar
-st.sidebar.markdown("<h2 style='text-align: center; color: white;'>Birthday Menu</h2>", unsafe_allow_html=True)
+st.sidebar.markdown("<h2 style='text-align: center; color: Black;'>Birthday Menu</h2>", unsafe_allow_html=True)
 menu = st.sidebar.radio("", ["🏠 Home", "🎁 Gifts", "📸 Photo Gallery", "🎮 Birthday Games", "✉️ Leave a Message"])
 
 # Home page
